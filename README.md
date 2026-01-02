@@ -5,7 +5,7 @@
 Unlike standard obstacle-avoidance robots, this system implements **PID-based heading lock** (using an MPU6050) to maintain perfectly straight lines despite uneven terrain, and features a robust **Fault-Tolerant Architecture** to handle high-EMI environments common in high-current DC motor applications.
 
 <p align="center">
-  <img src="Model.png" width="60%">
+  <img src="Model.png" width="30%">
 </p>
 
 ---
