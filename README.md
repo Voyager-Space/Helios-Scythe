@@ -78,16 +78,16 @@ The system utilizes a **Star Grounding Topology** to eliminate ground loops. Dig
 
 ```mermaid
 graph TD
-    A[Start] --> B[Calibrate Gyro]
+    A[Start] --> B(Calibrate Gyro)
     B --> C{Obstacle < 30cm?}
-    C -- No --> D[Drive Straight (Gyro Correction)]
+    C -- No --> D(Drive straight)
     D --> C
-    C -- Yes --> E[Stop & Disengage Blade]
-    E --> F[Scan Left & Right]
+    C -- Yes --> E(Stop & Disengage Blade)
+    E --> F(Scan Left & Right)
     F --> G{Left > Right?}
-    G -- Yes --> H[Gyro Turn Left 90°]
-    G -- No --> I[Gyro Turn Right 90°]
-    H --> J[Resume Blade & Path]
+    G -- Yes --> H(Gyro Turn Left 90°)
+    G -- No --> I(Gyro Turn Right 90°)
+    H --> J(Resume Blade & Path)
     I --> J
     J --> C
 
