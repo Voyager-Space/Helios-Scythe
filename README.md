@@ -4,6 +4,8 @@
 
 Unlike standard obstacle-avoidance robots, this system implements **PID-based heading lock** (using an MPU6050) to maintain perfectly straight lines despite uneven terrain, and features a robust **Fault-Tolerant Architecture** to handle high-EMI environments common in high-current DC motor applications.
 
+![Model](Model.png)
+
 ---
 
 ## Key Features
@@ -31,7 +33,7 @@ Unlike standard obstacle-avoidance robots, this system implements **PID-based he
 * **Power:** * Separate logic power (7.7V Li-Ion) for MCU to ensure isolation.
 * High-discharge Li-Ion pack for traction/cutter motors.
 
-
+![Model Shot 2](Model-Shot-2.png)
 
 ### Circuit Topology
 
